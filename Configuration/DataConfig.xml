@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!-- Data Driven Testing -->
+    <DDTFile-Mobile>./DDTFiles/mortgage.csv</DDTFile-Mobile>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <urlWeb>https://demo.nopcommerce.com</urlWeb> // remark line and line below where commented for DB test
+
+    <!-- Web Registration Form -->
+    <Gender>female</Gender>
+    <FirstName>SDDa</FirstName>
+    <LastName>DreASer</LastName>
+    <DayOfBirth>2</DayOfBirth>
+    <MonthOfBirth>October</MonthOfBirth>
+    <YearOfBirth>1984</YearOfBirth>
+    <Email>dzxcdf3qwf@gmail.com</Email>
+    <Company>null</Company>
+    <Password>123456</Password>
+
+    <ImageRepo>C:/FinalProject/ImageRepository/</ImageRepo>
+
+
+    <!--DB Credentials from db4free.net -->
+<!--    <urlWeb>https://www.saucedemo.com</urlWeb> // remark line for DB test-->
+    <LoginError>Epic sadface: Username and password do not match any user in this service</LoginError>
+
+
+    <!-- LoginWeb -->
+    <user>mason.contact@gmail.com</user>
+    <pass>mlsod32433</pass>
+
+    <!--- Data Driven Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!-- Mobile -->
+    <UDID>e1bed2b5</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- Api -->
+    <urlAPI>https://reqres.in/</urlAPI>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/whq10/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <DesktopAppPath>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</DesktopAppPath>
+    <AppiumServerDesktop>http://localhost:4723</AppiumServerDesktop>
+
+    <!-- Desktop Operating Numbers -->
+    <FirstNumber>5</FirstNumber>
+    <SecondNumber>2</SecondNumber>
+
+
+    <!-- Database -->
+    <dbURL>jdbc:mysql://db4free.net:3306/chokilovoro59342</dbURL>
+    <dbUser>theusersig44</dbUser>
+    <dbPass>sdkvsdf4423</dbPass>
+
+
+</Environment>

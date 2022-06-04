@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+    <test name="Mobile Tests">
+        <parameter name="PlatformName" value="mobile" />
+        <classes>
+            <class name="SanityTests.MortgageMobile"></class>
+        </classes>
+    </test>
+</suite>
